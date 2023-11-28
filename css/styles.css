@@ -86,11 +86,15 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
+}
+
+
+.nav .nav-menu .nav-menu-link{
     position: relative;
     color: var(--ocean);
 }
 
-.nav::after{
+.nav .nav-menu .nav-menu-link::after{
     content: "";
     position: absolute;
     left: 0;
@@ -98,7 +102,6 @@ img {
     height: 4px;
     background-color: var(--ocean);
     border-radius: 2px;
-    display: block;
 }
 
 .site-header-logo{
