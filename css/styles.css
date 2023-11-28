@@ -175,6 +175,7 @@ color: var(--main-slate);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/modal-bg/people-office.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -251,6 +252,7 @@ color: var(--main-slate);
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 
@@ -267,7 +269,7 @@ color: var(--main-slate);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    margin-bottom: 8px;
+    
 }
 
 
