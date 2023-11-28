@@ -388,7 +388,7 @@ color: var(--main-slate);
 
 .sec-team-sublist {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     justify-content: center;
     align-items: center;
 }
@@ -446,7 +446,7 @@ color: var(--main-slate);
 
 .sec-cust-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 
@@ -516,7 +516,7 @@ color: var(--main-slate);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -628,7 +628,7 @@ color: var(--main-slate);
 }
 .footer-media-list {
     display: flex;
-    column-gap: 16px;
+    gap: 16px;
 }
 
 .footer-media-obj{
@@ -653,6 +653,10 @@ color: var(--main-slate);
     line-height: 0;
 } 
 
+
+.footer-media-icon{
+    fill: var(--cloud);
+}
 .footer-media-obj:hover,
 .footer-media-obj:focus {
     background-color: var(--green);
