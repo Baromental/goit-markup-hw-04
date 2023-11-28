@@ -98,7 +98,7 @@ img {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 1px;
+    bottom: -1px;
     height: 4px;
     background-color: var(--ocean);
     border-radius: 2px;
@@ -433,7 +433,14 @@ color: var(--main-slate);
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
+
+
+.sec-team-icon{
+    fill: var(--cloud);
+}
+
 
 .sec-team-sublink:hover,
 .sec-team-sublink:focus {
@@ -472,33 +479,30 @@ color: var(--main-slate);
 
 .sec-cust-obj {
     width: calc((100% - 120px) / 6);
+    height: 88px;
 }
 
 
 .sec-cust-link {
-    width: 168px;
-    height: 88px;
-    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    border-width: 1px;
+    border-style: solid;
     border-color: var(--light-slate);
+    border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
+    fill: var(--light-slate);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     stroke 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.sec-cust-obj-cont {
-    width: 264px;
-    height: 112px;
-}
-
-
 .sec-cust-link:hover,
 .sec-cust-link:focus {
     fill: var(--ocean);
-    stroke: var(--ocean);
     border-color: var(--ocean);
 }
 
