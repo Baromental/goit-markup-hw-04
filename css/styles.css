@@ -69,7 +69,9 @@ img {
 /* HEADER */
 .site-header{
     border-bottom: 1px solid var(--corn);
-    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -84,20 +86,21 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
+    position: relative;
+    color: var(--ocean);
 }
 
-
-.container-head::after{
-    content: ;
+.nav::after{
+    content: "";
     position: absolute;
     left: 0;
     bottom: 1px;
     height: 4px;
     background-color: var(--ocean);
     border-radius: 2px;
-
-
+    display: block;
 }
+
 .site-header-logo{
     position: relative;
     color: var(--iris);
